@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class ListaComponent  implements OnInit {
 
   constructor() { }
-
   ngOnInit() {}
 
   verdadero:boolean = false;
