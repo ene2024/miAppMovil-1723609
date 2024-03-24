@@ -41,9 +41,7 @@ export class HomePage {
     ngOnDestroy(){
       console.log("AppComponent: OnDestroy");
     }
-  }
-
-  title: string = 'Mi nueva Pagina';
+    title: string = 'Mi nueva Pagina';
 
   hazmeClic() : void{
     alert("Hiciste clic!")
