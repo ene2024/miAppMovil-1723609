@@ -24,16 +24,23 @@ export class TareasService {
   ];
 
   getTareas(){
+
     return this.Tareas;
+
   }
 
+
   agregarTarea(tarea: Tarea){
+
     this.Tareas.push(tarea);
+
   }
 
   deleteTarea(tarea: Tarea){
+
     let position: number = this.Tareas.indexOf(tarea);
     this.Tareas.splice(position, 1);
+    
   }
 
 
