@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Tarea } from '../tareas/Tarea';
+import { ModalController } from '@ionic/angular';
+
 
 
 @Component({
@@ -7,7 +9,10 @@ import { Tarea } from '../tareas/Tarea';
   templateUrl: './agregar.component.html',
   styleUrls: ['./agregar.component.scss'],
 })
+
 export class AgregarComponent  implements OnInit {
+
+  constructor(private modalController:ModalController) { }
 
   nuevaTarea: Tarea = {
     nombre: '',
@@ -16,7 +21,9 @@ export class AgregarComponent  implements OnInit {
     descripcion: '',
   }
 
-  constructor() { }
+  Confirmar(){
+    this.modalController.dismiss(this.nuevaTarea);
+  }
 
   ngOnInit() {}
 

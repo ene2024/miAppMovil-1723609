@@ -45,13 +45,17 @@
     <ion-text><b>Descripción: </b></ion-text>
     <ion-item>
       <ion-textarea required
-        placeholder="Type something here"
+        placeholder="escribe tu tarea aqui"
         [autoGrow]="true"
         name="textArea"
         [(ngModel)]="nuevaTarea.descripcion"
       >
       </ion-textarea>
     </ion-item>
+
+    <ion-button expand="block"  (click)="Confirmar()" class="submit">
+      Agregar
+    </ion-button>
 
   </form>
 

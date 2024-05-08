@@ -1,9 +1,83 @@
+ion-content {
+   --background: #BB27A7;
+}
+
 ion-toolbar{
     text-align: center;
     color: white;
     --background: #BB27A7;
  }
 
- ion-content{
-    --background: #BB27A7;
- }
+ion-list{
+   background: #BB27A7;
+   width: 100%;
+}
+
+ion-fab-button{
+   --background: lightblue;
+    --border: dotted;
+    --color:black;
+   border-style: dashed;
+   border-radius: 30px;
+   margin-right: 30px;
+   margin-bottom: 10px;
+}
+
+ion-button{
+   --background: lightgray;
+   opacity: 0.8;
+   color: #BB27A7;
+   width: 5%;
+   span{
+      width: 100%;
+      text-align: left;
+   }
+}
+ion-item{
+   --background: white;
+   background-color: white;
+   height: 100px;
+   text-align: center;
+}
+
+.Nombre{
+   color: #BB27A7;
+}
+
+ion-label{
+display: block;
+}
+
+.Fecha{
+   color: black;
+}
+
+ion-accordion{
+   --background: white;
+   margin-top: 5px;
+   border-radius: 5px;
+   width: 98%;
+   margin-left: 1%;
+}
+
+ion-accordion{
+   .accordion-toggle-icon{
+      color: black;
+   }
+}
+
+.descripcion{
+   background-color: white;
+   color: black;
+   padding-left: 10px;
+   border: solid;
+   border-width: 2px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   height: 100px;
+}
+
+.Eliminar{
+   width: 30px;
+   height: 38px;
+}

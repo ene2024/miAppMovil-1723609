@@ -8,7 +8,20 @@ export class TareasService {
 
   constructor() { }
 
-  Tareas: Tarea[] = [];
+  Tareas: Tarea[] = [
+    {
+      nombre: 'Cita con el Dentistas',
+      mes: 3,
+      ano: 2024,
+      descripcion: 'Cita con el dentista a las 4 pm'
+    },
+    {
+      nombre: 'Tarea de Base de Datos',
+      mes: 4,
+      ano: 2024,
+      descripcion: 'Realizar PIA'
+    }
+  ];
 
   getTareas(){
     return this.Tareas;
