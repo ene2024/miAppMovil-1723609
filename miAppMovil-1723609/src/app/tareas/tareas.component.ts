@@ -48,7 +48,7 @@ export class TareasComponent  implements OnInit {
     this.TareaService.deleteTarea(note);
     alert("Se ha eliminado exitosamente la tarea!");
   }
-  
+
   tareas : Tarea[] = this.TareaService.Tareas;
 
 

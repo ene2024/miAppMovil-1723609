@@ -36,7 +36,6 @@ ion-button{
 ion-item{
    --background: white;
    background-color: white;
-   height: 100px;
    text-align: center;
 }
 
@@ -44,9 +43,10 @@ ion-item{
    color: #BB27A7;
 }
 
-ion-label{
-display: block;
+.vermas{
+   color: #BB27A7;
 }
+
 
 .Fecha{
    color: black;
@@ -54,17 +54,9 @@ display: block;
 
 ion-accordion{
    --background: white;
-   margin-top: 5px;
    border-radius: 5px;
-   width: 98%;
-   margin-left: 1%;
 }
 
-ion-accordion{
-   .accordion-toggle-icon{
-      color: black;
-   }
-}
 
 .descripcion{
    background-color: white;

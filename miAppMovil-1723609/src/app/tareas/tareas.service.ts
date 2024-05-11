@@ -23,6 +23,10 @@ export class TareasService {
     }
   ];
 
+  getTareaById(id: any){
+    return this.Tareas[id];
+  }
+
   getTareas(){
 
     return this.Tareas;
